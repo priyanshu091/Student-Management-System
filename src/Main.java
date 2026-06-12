@@ -84,7 +84,9 @@ public class Main {
                     break;
 
                 case 7:
-                    System.exit(0);
+                    System.out.println("Thank you for using Student Management System. Goodbye!");
+                    sc.close();
+                    return;
 
                 default:
                     System.out.println("Invalid choice! Please enter 1-7.");
